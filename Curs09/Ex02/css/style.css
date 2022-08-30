@@ -10,7 +10,7 @@
 
 .stage .title {
   position: absolute;
-  top: 5px; 
+  top: 5px;
   right: 5px
 }
 
@@ -19,5 +19,23 @@
   height: 25px;
   background: #000;
   border: 1px solid red;
+}
+
+.stage-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stage-02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stage-04 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
