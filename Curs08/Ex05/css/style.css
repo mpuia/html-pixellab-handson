@@ -1,4 +1,51 @@
 .container {
-  border: 1px solid #000; 
+  border: 1px solid #000;
   padding: 5px;
 }
+
+.nav-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: blue;
+  color: brown;
+  z-index: 1;
+}
+
+.nav-bottom a {
+  color: brown;
+}
+
+.legend {
+  position: absolute;
+  background-color: gray;
+  border: red;
+  top: -10px;
+}
+
+.container {
+  position: relative;
+}
+
+.sup {
+  position: relative;
+  top: -3px;
+  font-size: 10px;
+}
+
+.nav-top {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: green;
+  z-index: 1;
+}
+
+ /* help here pls */
+.body {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-right: 21px;
+  padding-left: 13px;
+}
+
