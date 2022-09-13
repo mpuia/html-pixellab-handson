@@ -3,6 +3,11 @@
   margin: 8px 0;
 }
 
+.my-second-list a {
+  display: block;
+  margin: 8px 0;
+}
+
 .my-first-list a::before {
   display: inline-block;
   width: 10px;
@@ -20,5 +25,25 @@
   background-color: red;
   content: '';
   border-radius: 9px;
+  margin-left: 8px;
+}
+
+.my-second-list a::before {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: pink;
+  content: '';
+  border-radius: 9px;
+  margin-right: 9px;
+}
+
+.my-second-list a::after {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  content: '';
+  transform: rotate(45deg);
   margin-left: 8px;
 }

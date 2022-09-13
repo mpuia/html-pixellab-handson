@@ -14,7 +14,7 @@
   background-color: gray;
 }
 
-body h3:nth-of-type(4n) {
+body h3:nth-of-type(4) {
   color: green;
 }
 
@@ -37,4 +37,16 @@ ul li:last-child {
 
 ul li ul li:nth-child(3) {
   color: purple;
+}
+
+p:nth-of-type(odd) {
+  background-color: brown;
+  padding: 15px;
+}
+
+/* aici nu ar fi mers: body ul li:nth-of-type() sau doar ul li:nth-of-type*/
+
+body > ul > li:nth-of-type(3n) {
+  border: 1px solid black;
+  padding: 8px;
 }
