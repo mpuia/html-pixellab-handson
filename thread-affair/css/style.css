@@ -497,7 +497,7 @@ a {
   line-height: 59px;
   text-align: center;
   color: #292929;
-  font: 300px;
+  font-weight: 300px;
 }
 
 /* nu vrem mai mult de 4 per selector */

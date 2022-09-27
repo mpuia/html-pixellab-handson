@@ -233,6 +233,8 @@
   font-display: swap;
 }
 
+/* fonts */
+
 /* reset */
 html,
 body,
@@ -367,12 +369,181 @@ table {
 
 /* reset */
 
-/* fonts */
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Playfair Display;
+  color: #2b2b2b;
+  font-size: 22px;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* header */
+.header {
+  margin: 40px auto;
+}
+.header-secondary {
+  background: #1B1927 url('./../banners/banner.png') no-repeat 120% center;
+  padding: 50px 50px 0 50px;
+  top: -3px;
+  left: 0px;
+  width: 1920px;
+  height: 500px;
+}
+
+.header-secondary .header-connect {
+  float: left;
+}
+
+.header-secondary .header-connect li{
+  display: inline-block;
+  color: #fff;
+}
+
+.header-secondary .header-connect li i {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.header-secondary .header-connect a {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.header-secondary .header-controls {
+  float: right;
+}
+
+.header-secondary .header-controls>ul{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-secondary .header-controls li:first-child input{
+  width: 254px;
+  height: 41px;
+}
+/* aici am reusit sa redimensionez search box dar nu si placeholder text :/ */
+
+.header-secondary .header-controls li {
+  display: inline-block;
+  color: #000;
+  font-size: 30px;
+}
+
+.header-primary {
+  text-transform: uppercase;
+  background: #2b2b2b no-repeat;
+  width: 1920px;
+  height: 52px;
+}
+
+.nav-primary {
+  font-size: 19px;
+  color: #e8e8e8;
+  margin-bottom: 11px;
+  margin-top: 15px;
+  margin-left: 282px;
+}
+
+.nav-primary li {
+  display:inline-block;
+  margin: 15px 11px 8px 8px;
+}
+
+.nav-primary a{
+  padding: 6px 14px;
+  margin: 0 25px;
+}
+
+/* homepage */
+
+.content-main>section {
+  margin-bottom: 140px;
+}
+
+.content-main>section header h1 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
+.home-content img {
+  float: left;
+  margin-right: 139px;
+  vertical-align: middle;
+  width: 666px;
+  height: 666px;
+}
+
+.home-content h1 {
+  text-align: end;
+  font-size: 44px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-bottom: 40px;
+}
+
+.home-content p {
+  display: block;
+  text-align: justify;
+  font-size: 22px;
+  font-family: Roboto-Light;
+  font-weight: 300px;
+  padding-bottom: 30px;
+  margin-left: 139px;
+}
+
+.home-content p:first-child {
+  margin-bottom: 68px;
+}
+
+.home-content p:nth-child(2) {
+  margin-bottom: 151px;
+}
+
+/* homepage */
+
+/* footer */
+
+.footer-inner {
+  background: #e8e8e8;
+  padding: 50px 50px 0 50px;
+  font-size: 22px;
+  color: #2b2b2b;
+  line-height: 37px;
+  width: 1920px;
+}
+/* de unde luam sizes la padding si line-height? */
+
+.footer-nav {
+  margin-bottom: ;
+}
+
+/* de unde luam size la margin bottom? */
+
+.footer-nav ul {
+  display: inline-block;
+  margin-left: 157px;
+  text-align: left;
+}
+.footer-nav ul:first-child {
+  margin-left: 0;
+}
+
+
+

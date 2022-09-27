@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header container">
     <section class="header-secondary">
       <div class="header-connect">
         <ul>
@@ -56,17 +56,28 @@
           </li>
         </ul>
       </div>
-      <!-- header-support -->
+      <!-- header-connect -->
+
 
       <div class="header-controls">
         <ul>
-          <li class="search-controls">
+          <li>
+            <label for="site-search"></label>
+            <input
+              type="search"
+              name="search"
+              id="site-search"
+              placeholder="Search"
+            >
+          </li>
+
+          <!-- <li class="search-controls">
             <i class="fa-solid fa-magnifying-glass"></i>
             <a
               href=""
               title="search"
             >Search</a>
-          </li>
+          </li> -->
 
           <li class="user-controls">
             <a
@@ -96,14 +107,6 @@
       </div>
       <!-- header-controls -->
 
-      <a
-        href="/"
-        title="Monochrome"
-        class="header-logo"
-      ><img
-          src="images/"
-          alt="Monochrome - Logo"
-        ></a>
     </section>
     <!-- /.header-secondary -->
 
@@ -160,7 +163,7 @@
   </header>
   <!-- ./header -->
 
-  <main class="content">
+  <main class="content container">
     <div class="content-main">
       <section class="home-catalog-preview">
         <header>
@@ -394,7 +397,7 @@
             will give you a complete account of the system, and expound the actual teachings of the great explorer of
             the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
             because.
-          </p>
+          </p> <br>
           <p>
             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
             will give you a complete account of the system, and expound the actual teachings of the great explorer of
@@ -672,7 +675,7 @@
   </main>
   <!-- ./content -->
 
-  <footer class="footer">
+  <footer class="footer container">
     <section class="footer-inner">
       <div class="footer-support">
         <nav class="footer-nav">
