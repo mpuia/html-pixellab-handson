@@ -385,7 +385,7 @@ a {
 }
 
 .container {
-  max-width: 1350px;
+  max-width: 1356px;
   margin: 0 auto;
   width: 100%;
 }
@@ -395,16 +395,21 @@ a {
   margin: 40px auto;
 }
 .header-secondary {
-  background: #1B1927 url('./../banners/banner.png') no-repeat 120% center;
+  background: #1B1927 url('./../banners/banner.png') center center /
+    cover no-repeat;
   padding: 50px 50px 0 50px;
-  top: -3px;
-  left: 0px;
   width: 1920px;
   height: 500px;
 }
 
 .header-secondary .header-connect {
   float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 420px;
+  position: relative;
 }
 
 .header-secondary .header-connect li{
@@ -424,9 +429,10 @@ a {
 }
 .header-secondary .header-controls {
   float: right;
+  padding-right: 420px;
 }
 
-.header-secondary .header-controls>ul{
+.header-secondary .header-controls > ul{
   display: flex;
   align-items: center;
   gap: 8px;
@@ -441,15 +447,37 @@ a {
 .header-secondary .header-controls li {
   display: inline-block;
   color: #000;
-  font-size: 30px;
+}
+
+.header-secondary .header-controls li:nth-child(2) {
+  width: 22px;
+  height: 19px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+.header-secondary .header-controls li:nth-child(3) {
+  width: 22px;
+  height: 19px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.header-secondary .header-controls li:nth-child(4) {
+  width: 22px;
+  height: 19px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .header-primary {
   text-transform: uppercase;
-  background: #2b2b2b no-repeat;
+  background: #2b2b2b no-repeat center center / cover;
   width: 1920px;
   height: 52px;
 }
+
+/* cum lipesc header primary de banner? :/ */
 
 .nav-primary {
   font-size: 19px;
@@ -471,16 +499,72 @@ a {
 
 /* homepage */
 
-.content-main>section {
+.content-main > section {
   margin-bottom: 140px;
 }
 
-.content-main>section header h1 {
+.content-main > section header {
+  margin-bottom: 23px;
+}
+
+.content-main > section header h1 {
   font-size: 35px;
+  line-height: 47px;
   text-align: center;
   font-weight: bold;
   color: #2b2b2b;
 }
+
+.home-catalog-preview ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-catalog-preview ul li {
+  width: 23,6725664;
+}
+
+/* 321 * 100 / 1356 = 23,6725664 */
+
+.home-catalog-preview .product-tile {
+  width: 100%;
+}
+
+.product-tile {
+  font-size: 22px;
+  text-align: center;
+}
+
+.product-tile-image {
+  position: relative;
+}
+
+.product-tile .product-tile-image a {
+  display: block;
+}
+
+.product-tile .product-tile-image img {
+  width: 100%;
+}
+
+.product-tile .product-tile-image .product-tile-badge {
+  font-weight: 500;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.product-tile .product-tile-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 21px 0 10px 0;
+}
+
+.product-tile .product-tile-pricing {
+  font-weight: 500px;
+}
+
 
 .home-content img {
   float: left;
