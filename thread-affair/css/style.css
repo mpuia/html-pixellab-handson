@@ -695,7 +695,6 @@ a {
   background-color: #FF6B6B;
 }
 
-
 .home-cta a {
   display: flex;
   flex-direction: column;
@@ -712,14 +711,14 @@ a {
   text-align: right;
 }
 
-.home-cta a>span {
+.home-cta a > span {
   margin-top: 16px;
   font-size: 18px;
   font-weight: 300;
   line-height: 22px;
 }
 
-.home-cta a>span span {
+.home-cta a > span span {
   font-weight: 500;
 }
 

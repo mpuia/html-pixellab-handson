@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Black.woff2') format('woff2'),
-      url('../fonts/Roboto-Black.woff') format('woff');
+    url('../fonts/Roboto-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-BlackItalic.woff') format('woff');
+    url('../fonts/Roboto-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -20,7 +20,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Light.woff2') format('woff2'),
-      url('../fonts/Roboto-Light.woff') format('woff');
+    url('../fonts/Roboto-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -29,7 +29,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-ThinItalic.woff') format('woff');
+    url('../fonts/Roboto-ThinItalic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
   font-display: swap;
@@ -38,7 +38,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
-      url('../fonts/Roboto-Italic.woff') format('woff');
+    url('../fonts/Roboto-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -47,7 +47,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-MediumItalic.woff') format('woff');
+    url('../fonts/Roboto-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -56,7 +56,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-LightItalic.woff') format('woff');
+    url('../fonts/Roboto-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -65,7 +65,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-      url('../fonts/Roboto-Bold.woff') format('woff');
+    url('../fonts/Roboto-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -74,7 +74,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-      url('../fonts/Roboto-Regular.woff') format('woff');
+    url('../fonts/Roboto-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -83,7 +83,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
-      url('../fonts/Roboto-Thin.woff') format('woff');
+    url('../fonts/Roboto-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -92,7 +92,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-BoldItalic.woff') format('woff');
+    url('../fonts/Roboto-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -101,7 +101,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
-      url('../fonts/Roboto-Medium.woff') format('woff');
+    url('../fonts/Roboto-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -110,7 +110,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-Black.woff2') format('woff2'),
-      url('PlayfairDisplay-Black.woff') format('woff');
+    url('PlayfairDisplay-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -119,7 +119,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-      url('PlayfairDisplay-BoldItalic.woff') format('woff');
+    url('PlayfairDisplay-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -128,7 +128,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-BlackItalic.woff2') format('woff2'),
-      url('PlayfairDisplay-BlackItalic.woff') format('woff');
+    url('PlayfairDisplay-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -137,7 +137,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-ExtraBold.woff2') format('woff2'),
-      url('PlayfairDisplay-ExtraBold.woff') format('woff');
+    url('PlayfairDisplay-ExtraBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -146,7 +146,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-Bold.woff2') format('woff2'),
-      url('PlayfairDisplay-Bold.woff') format('woff');
+    url('PlayfairDisplay-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -155,7 +155,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-Medium.woff2') format('woff2'),
-      url('PlayfairDisplay-Medium.woff') format('woff');
+    url('PlayfairDisplay-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -164,7 +164,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-Italic.woff2') format('woff2'),
-      url('PlayfairDisplay-Italic.woff') format('woff');
+    url('PlayfairDisplay-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -173,7 +173,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
-      url('PlayfairDisplay-Regular.woff') format('woff');
+    url('PlayfairDisplay-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -182,7 +182,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-Italic.woff2') format('woff2'),
-      url('PlayfairDisplay-Italic.woff') format('woff');
+    url('PlayfairDisplay-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -191,7 +191,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
-      url('PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+    url('PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -200,7 +200,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-MediumItalic.woff2') format('woff2'),
-      url('PlayfairDisplay-MediumItalic.woff') format('woff');
+    url('PlayfairDisplay-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -209,7 +209,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
-      url('PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+    url('PlayfairDisplay-SemiBoldItalic.woff') format('woff');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -218,7 +218,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
-      url('PlayfairDisplay-Regular.woff') format('woff');
+    url('PlayfairDisplay-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -227,7 +227,7 @@
 @font-face {
   font-family: 'Playfair Display';
   src: url('PlayfairDisplay-SemiBold.woff2') format('woff2'),
-      url('PlayfairDisplay-SemiBold.woff') format('woff');
+    url('PlayfairDisplay-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -392,12 +392,16 @@ a {
 
 /* header */
 .header {
-  margin: 40px auto;
+  margin-bottom: 40px;
 }
-.header-secondary {
-  background: #1B1927 url('./../banners/banner.png') center center /
-    cover no-repeat;
+
+.header-top-inner {
   padding: 50px 50px 0 50px;
+}
+
+.header-secondary {
+  background: #1b1927 url('./../banners/banner.png') center center / cover
+    no-repeat;
   width: 1920px;
   height: 500px;
 }
@@ -408,37 +412,37 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 420px;
+  margin-left: 100px;
   position: relative;
 }
 
-.header-secondary .header-connect li{
+.header-secondary .header-connect li {
   display: inline-block;
-  color: #fff;
-}
-
-.header-secondary .header-connect li i {
-  color: #fff;
-  font-size: 30px;
   margin-right: 20px;
 }
 
-.header-secondary .header-connect a {
+.header-secondary .header-connect li a {
+  color: #fff;
+  display: inline-block;
   font-size: 16px;
+  padding: 40px auto;
   text-transform: uppercase;
 }
+
 .header-secondary .header-controls {
   float: right;
-  padding-right: 420px;
+  margin-right: 420px;
 }
 
-.header-secondary .header-controls > ul{
+/* cum pun acel icon de search? :(( */
+
+.header-secondary .header-controls > ul {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.header-secondary .header-controls li:first-child input{
+.header-secondary .header-controls li:first-child input {
   width: 254px;
   height: 41px;
 }
@@ -472,30 +476,30 @@ a {
 
 .header-primary {
   text-transform: uppercase;
+  display: inline-block;
   background: #2b2b2b no-repeat center center / cover;
   width: 1920px;
   height: 52px;
 }
 
-/* cum lipesc header primary de banner? :/ */
-
 .nav-primary {
   font-size: 19px;
   color: #e8e8e8;
   margin-bottom: 11px;
-  margin-top: 15px;
   margin-left: 282px;
 }
 
 .nav-primary li {
-  display:inline-block;
+  display: inline-block;
   margin: 15px 11px 8px 8px;
 }
 
-.nav-primary a{
+.nav-primary a {
   padding: 6px 14px;
   margin: 0 25px;
 }
+
+/* aici la nav-primary e ok padding-ul? */
 
 /* homepage */
 
@@ -521,7 +525,7 @@ a {
 }
 
 .home-catalog-preview ul li {
-  width: 23,6725664;
+  width: 23.6725664%;
 }
 
 /* 321 * 100 / 1356 = 23,6725664 */
@@ -565,8 +569,12 @@ a {
   font-weight: 500px;
 }
 
+.home-content {
+  margin-top: 120px;
+  margin-bottom: 140px;
+}
 
-.home-content img {
+.home-content aside img {
   float: left;
   margin-right: 139px;
   vertical-align: middle;
@@ -574,7 +582,7 @@ a {
   height: 666px;
 }
 
-.home-content h1 {
+.home-content section h1 {
   text-align: end;
   font-size: 44px;
   font-weight: bold;
@@ -582,7 +590,7 @@ a {
   margin-bottom: 40px;
 }
 
-.home-content p {
+.home-content section p {
   display: block;
   text-align: justify;
   font-size: 22px;
@@ -592,42 +600,65 @@ a {
   margin-left: 139px;
 }
 
-.home-content p:first-child {
+.home-content section p:first-child {
   margin-bottom: 68px;
 }
 
-.home-content p:nth-child(2) {
+.home-content section p:nth-child(2) {
   margin-bottom: 151px;
+}
+
+.catalog-ctas {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 108px;
+}
+.catalog-ctas a {
+  display: inline-flex;
+  border: 1px solid #000;
+  align-items: center;
+  line-height: 22px;
+  padding: 10px 10px;
 }
 
 /* homepage */
 
 /* footer */
 
-.footer-inner {
+.footer {
   background: #e8e8e8;
-  padding: 50px 50px 0 50px;
+}
+
+.footer-inner {
+  padding: 40px 0px;
   font-size: 22px;
   color: #2b2b2b;
   line-height: 37px;
-  width: 1920px;
+  display: flex;
 }
-/* de unde luam sizes la padding si line-height? */
+
+.footer-contact {
+  margin-bottom: 124px;
+  margin-right: 100px;
+  display: flex;
+}
 
 .footer-nav {
-  margin-bottom: ;
+  display: flex;
+  margin-right: 28px;
 }
-
-/* de unde luam size la margin bottom? */
 
 .footer-nav ul {
+  margin-bottom: 124px;
+  margin-right: 157px;
   display: inline-block;
-  margin-left: 157px;
-  text-align: left;
-}
-.footer-nav ul:first-child {
-  margin-left: 0;
 }
 
+.footer-connect .footer-newsletter p span {
+  text-decoration: underline;
+}
 
-
+.footer-connect .footer-social ul li {
+  margin-bottom: 124px;
+  display: inline-block;
+}

@@ -28,33 +28,55 @@
 </head>
 
 <body>
-  <header class="header container">
+  <header class="header">
     <section class="header-secondary">
-      <div class="header-connect container">
-        <ul>
-          <li>
-            <i class="fa-brands fa-youtube"></i>
-          </li>
+      <div class="header-top-inner container">
+        <div class="header-connect">
+          <ul>
+            <li>
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow Monochrome on Youtube"
+              ><i class="fa-brands fa-youtube"></i></a>
+            </li>
 
-          <li>
-            <i class="fa-brands fa-facebook"></i>
-          </li>
+            <li>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow Monochrome on Facebook"
+              ><i class="fa-brands fa-facebook"></i></a>
+            </li>
 
-          <li>
-            <i class="fa-brands fa-twitter"></i>
-          </li>
+            <li>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Follow Monochrome on Twitter"
+              ><i class="fa-brands fa-twitter"></i></a>
+            </li>
 
-          <li>
-            <i class="fa-brands fa-instagram"></i>
-          </li>
+            <li>
+              <a
+                href="https://instagram.com target="
+                _blank"
+                rel="noopener noreferrer"
+                title="Follow Monochrome on Instagram"
+              ><i class="fa-brands fa-instagram"></i></a>
+            </li>
 
-          <li>
-            <a
-              href="tel:+44(0)10 2345 6789"
-              title="Call us"
-            >Call us +44(0)10 2345 6789</a>
-          </li>
-        </ul>
+            <li>
+              <a
+                href="tel:+44(0)10 2345 6789"
+                title="Call us"
+              >Call us +44(0)10 2345 6789</a>
+            </li>
+          </ul>
+        </div>
       </div>
       <!-- header-connect -->
 
@@ -62,13 +84,14 @@
       <div class="header-controls">
         <ul>
           <li>
-            <label for="site-search"></label>
-            <input
-              type="search"
-              name="search"
-              id="site-search"
-              placeholder="Search"
-            >
+            <form id="form">
+              <input
+                type="search"
+                id="query"
+                name="Search"
+                placeholder="Search"
+              >
+            </form>
           </li>
 
           <!-- <li class="search-controls">
@@ -421,23 +444,30 @@
         </ul>
 
         <section class="home-content">
-          <img
-            src="img.png"
-            alt="Monocrome accessories"
-          >
-          <h1>Watches for entrepreneurs</h1>
-          <p>
-            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-            will give you a complete account of the system, and expound the actual teachings of the great explorer of
-            the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
-            because.
-          </p> <br>
-          <p>
-            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
-            will give you a complete account of the system, and expound the actual teachings of the great explorer of
-            the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
-            because.
-          </p>
+          <aside>
+            <img
+              src="img.png"
+              alt="Monocrome accessories"
+            >
+          </aside>
+
+          <section>
+            <h1>Watches for entrepreneurs</h1>
+            <p>
+              But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and
+              I
+              will give you a complete account of the system, and expound the actual teachings of the great explorer of
+              the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
+              because.
+            </p> <br>
+            <p>
+              But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and
+              I
+              will give you a complete account of the system, and expound the actual teachings of the great explorer of
+              the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
+              because.
+            </p>
+          </section>
         </section>
         <!-- ./home-content -->
 
@@ -635,6 +665,13 @@
                       <i class="fa-regular fa-heart"></i>
                     </span>
                   </div>
+
+                  <h1 class="product-tile-title">
+                    <a
+                      href=""
+                      title="Monochrome16"
+                    >Monochrome</a>
+                  </h1>
                 </header>
 
                 <section class="product-tile-pricing">$425</section>
@@ -721,115 +758,121 @@
   </main>
   <!-- ./content -->
 
-  <footer class="footer container">
-    <section class="footer-inner">
-      <div class="footer-support">
-        <nav class="footer-nav">
-          <ul>
-            <li>
-              <a
-                href=""
-                title="call us"
-              >call us</a>
-            </li>
+  <footer class="footer">
+    <section class="footer-inner container">
+      <section class="footer-contact">
+        <ul>
+          <li>
+            <a
+              href=""
+              title="call us"
+            >call us</a>
+          </li>
 
-            <li>
-              <a
-                href="tel:+44(0)1023436789"
-                title="Support"
-              >
-                +44 (0)10 2343 6789
-              </a>
-            </li>
+          <li>
+            <a
+              href="tel:+44(0)1023436789"
+              title="Support"
+            >
+              +44 (0)10 2343 6789
+            </a>
+          </li>
 
-            <li>
-              <a
-                href="mailto:contact@monochrome.com"
-                title="Email"
-              >
-                email customer care
-              </a>
-            </li>
-          </ul>
+          <li>
+            <a
+              href="mailto:contact@monochrome.com"
+              title="Email"
+            >
+              email customer care
+            </a>
+          </li>
+        </ul>
+      </section>
 
-          <ul>
-            <li>
-              <a
-                href=""
-                title="style"
-              >style & fit advice</a>
-            </li>
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <a
+              href=""
+              title="style"
+            >style & fit advice</a>
+          </li>
 
-            <li>
-              <a
-                href=""
-                title="faqs"
-              >faqs</a>
-            </li>
+          <li>
+            <a
+              href=""
+              title="faqs"
+            >faqs</a>
+          </li>
 
-            <li>
-              <a
-                href=""
-                title="delivery"
-              >delivery</a>
-            </li>
+          <li>
+            <a
+              href=""
+              title="delivery"
+            >delivery</a>
+          </li>
 
-            <li>
-              <a
-                href=""
-                title="exchange"
-              >exchange & returns</a>
-            </li>
-          </ul>
+          <li>
+            <a
+              href=""
+              title="exchange"
+            >exchange & returns</a>
+          </li>
+        </ul>
 
-          <ul>
-            <li>
-              <a
-                href=""
-                title="about us"
-              >about us</a>
-            </li>
+        <ul>
+          <li>
+            <a
+              href=""
+              title="about us"
+            >about us</a>
+          </li>
 
-            <li>
-              <a
-                href=""
-                title="careers"
-              >careers</a>
-            </li>
+          <li>
+            <a
+              href=""
+              title="careers"
+            >careers</a>
+          </li>
 
-            <li>
-              <a
-                href=""
-                title="affiliates"
-              >affiliates</a>
-            </li>
+          <li>
+            <a
+              href=""
+              title="affiliates"
+            >affiliates</a>
+          </li>
 
-            <li>
-              <a
-                href=""
-                title="advertising"
-              >advertising</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+          <li>
+            <a
+              href=""
+              title="advertising"
+            >advertising</a>
+          </li>
+        </ul>
+      </nav>
 
-      <div class="sign-up">
-        <h1>sign up for our newsletter</h1>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email address"
+      <div class="footer-connect">
+        <form
+          action="GET"
+          class="footer-newsletter"
         >
-        <input
-          type="checkbox"
-          name="agreement"
-          id="agreement"
-        >
-        <p>I agree with Privacy Policy and I want to receive emails from Monochrome</p>
-        <button type="submit">Submit</button>
-        <section class="home-social">
+          <h1>sign up for our newsletter</h1>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+          >
+          <br>
+
+          <p> <input
+              type="checkbox"
+              name="agreement"
+              id="agreement"
+            > I agree with <span>Privacy Policy</span> and I want to <br> receive emails from Monochrome</p>
+          <button type="submit">Submit</button>
+        </form>
+        <section class="footer-social">
           <ul>
             <li>
               <a
