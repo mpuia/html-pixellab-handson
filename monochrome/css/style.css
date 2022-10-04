@@ -393,6 +393,9 @@ a {
 /* header */
 .header {
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-top-inner {
